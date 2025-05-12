@@ -1,70 +1,111 @@
-<!DOCTYPE html>
+[13:35, 12.5.2025] Denis Funk: <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Funk Automobile – PKW-Anhänger Verkauf</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funk Automobile</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
       margin: 0;
-      background-color: #f5f5f5;
+      padding: 0;
+      color: #333;
     }
     header {
-      background-color: #222;
+      background-color: #1f1f1f;
       color: white;
-      padding: 1rem;
       text-align: center;
+      padding: 20px;
     }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-      background: white;
+    header img {
+      max-height: 80px;
     }
-    h1, h2 {
-      color: #2d2d2d;
+    .container {
+      padding: 20px;
     }
-    .leistungen ul {
-      list-style: none;
-      padding-left: 0;
+    .gallery img {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .leistungen li::before {
-      content: "✔️ ";
-      color: green;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: gray;
-      margin: 2rem 0;
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0072ce;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
+
   <header>
+    <img src="logo.png" alt="Funk Automobile Logo" />
     <h1>Funk Automobile</h1>
-    <p>Ihr Spezialist für PKW-Anhänger</p>
+    <p>PKW-Anhänger · Pferdeanhänger · Fahrzeugtransporter · Kühlanhänger</p>
   </header>
 
-  <section class="leistungen">
-    <h2>Unsere Anhänger</h2>
-    <ul>
-      <li>PKW-Anhänger von 0,75 - 3,5 t</li>
-      <li>Pferdeanhänger</li>
-      <li>Fahrzeugtransporter</li>
-      <li>Verkaufs- und Promotionanhänger</li>
-      <li>Kühl- und Tiefkühlanhänger</li>
-    </ul>
-  </section>
+  <div class="container">
+    <h2>Herzlich willkommen!</h2>
+    <p>Wir verkaufen professionelle PKW-Anhänger von 0,75 – 3,5 Tonnen.</p>
 
-  <section>
-    <h2>Anfrageformular</h2>
-    <p>Bitte kontaktieren Sie uns direkt per E-Mail oder vor Ort für Angebote.</p>
-  </section>
+    <div class="gallery">
+      <img src="anhaenger1.jpeg" alt="Anhänger 1" />
+      <img src="anhaenger2.jpeg" alt="Anhänger 2" />
+    </div>
 
-  <footer>
-    &copy; 2025 Funk Automobile – funk-automobile.de
-  </footer>
+    <a class="button" href="https://www.kleinanzeigen.de/pro/funk-automobile--1-2-3-4" target="_blank">
+      Zu unserem Kleinanzeigen-Profil
+    </a>
+  </div>
+
+</body>
+</html>
+[13:46, 12.5.2025] Denis Funk: https://funk-automobile.de
+[13:47, 12.5.2025] Denis Funk: Das funktioniert schon mal 🤡
+[13:47, 12.5.2025] Juli ❤️: Ja aber nur eine Seite
+[13:48, 12.5.2025] Denis Funk: Muss ich noch alles einpacken
+[14:37, 12.5.2025] Denis Funk: <p><a href="impressum.html">Impressum</a></p>
+[14:37, 12.5.2025] Denis Funk: <!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Impressum – Funk Automobile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Impressum</h1>
+  <p><strong>Funk Automobile</strong></p>
+  <p>Fritz-Minhardt-Straße 1<br>
+  76456 Kuppenheim<br>
+  Deutschland</p>
+
+  <p><strong>Inhaberin:</strong> Tatjana Funk</p>
+  <p><strong>Telefon:</strong> 0176 47748629<br>
+  <strong>E-Mail:</strong> <a href="mailto:Funk-Automobile@t-online.de">Funk-Automobile@t-online.de</a></p>
+
+  <p><strong>Umsatzsteuer-ID:</strong> DE322480453</p>
+
+  <p>Verantwortlich gemäß § 5 TMG: Tatjana Funk</p>
 </body>
 </html>
