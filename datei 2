@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funk Automobile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-height: 80px;
+    }
+    .container {
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0072ce;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Funk Automobile Logo" />
+    <h1>Funk Automobile</h1>
+    <p>PKW-Anhänger · Pferdeanhänger · Fahrzeugtransporter · Kühlanhänger</p>
+  </header>
+
+  <div class="container">
+    <h2>Herzlich willkommen!</h2>
+    <p>Wir verkaufen professionelle PKW-Anhänger von 0,75 – 3,5 Tonnen.</p>
+
+    <div class="gallery">
+      <img src="anhaenger1.jpeg" alt="Anhänger 1" />
+      <img src="anhaenger2.jpeg" alt="Anhänger 2" />
+    </div>
+
+    <a class="button" href="https://www.kleinanzeigen.de/pro/funk-automobile--1-2-3-4" target="_blank">
+      Zu unserem Kleinanzeigen-Profil
+    </a>
+  </div>
+
+</body>
+</html>
