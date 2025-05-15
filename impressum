@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Impressum – Funk Automobile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Impressum</h1>
+  <p><strong>Funk Automobile</strong></p>
+  <p>Fritz-Minhardt-Straße 1<br>
+  76456 Kuppenheim<br>
+  Deutschland</p>
 
+  <p><strong>Inhaberin:</strong> Tatjana Funk</p>
+  <p><strong>Telefon:</strong> 0176 47748629<br>
+  <strong>E-Mail:</strong> <a href="mailto:Funk-Automobile@t-online.de">Funk-Automobile@t-online.de</a></p>
+
+  <p><strong>Umsatzsteuer-ID:</strong> DE322480453</p>
+
+  <p>Verantwortlich gemäß § 5 TMG: Tatjana Funk</p>
+</body>
+</html>
