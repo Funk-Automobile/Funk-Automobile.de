@@ -1,1 +1,47 @@
+:root {
+    --primary: #005792;
+    --secondary: #e8491d;
+    --light: #f4f4f4;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.price {
+    color: var(--secondary);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 60px;
+    }
+}
